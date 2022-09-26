@@ -1,0 +1,43 @@
+@media only screen and (max-width:1171px){
+    
+    .navbar{
+        flex-direction: column;
+        height: 230px;
+        transition: all 0.9s ease-out;
+       
+       
+    }
+    
+    nav ul{
+        flex-direction: column;
+    }
+    .home h1{
+        font-size: 40px;
+    }
+    .ctypes{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .course-type{
+        margin: 5px;
+    }
+
+   .reviewcard{
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+       align-items: center;
+   }
+   .imgbox{
+       margin: 50px;
+   }
+   .burger{
+    display: block;
+}
+.h-nav{
+    height: 72px;
+}
+.v-class{
+    opacity: 0;
+}
+}
